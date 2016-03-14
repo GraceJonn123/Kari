@@ -13,7 +13,8 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        int timer = 3000;
+        int timer = 2500;
+
 
         new android.os.Handler().postDelayed(new Runnable() {
             @Override
@@ -21,11 +22,13 @@ public class Splash extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), Main.class));
             }
         }, timer);
+
+
     }
+
     @Override
     protected void onStop() {
         super.onStop();
         finish();
     }
-
 }
