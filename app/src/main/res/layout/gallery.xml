@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/kari"
+                android:id="@+id/image1"
+                android:padding="30dp"
+                />
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/kari2"
+                android:id="@+id/image2"
+                android:layout_below="@+id/image1"
+                />
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/kari3"
+                android:id="@+id/image3"
+                android:layout_below="@+id/image2"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/a"
+                android:id="@+id/a"
+                android:layout_below="@+id/image3"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/b"
+                android:id="@+id/b"
+                android:layout_below="@+id/a"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/c"
+                android:id="@+id/c"
+                android:layout_below="@+id/b"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/d"
+                android:id="@+id/d"
+                android:layout_below="@+id/c"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/e"
+                android:id="@+id/e"
+                android:layout_below="@+id/d"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/f"
+                android:id="@+id/f"
+                android:layout_below="@+id/e"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/g"
+                android:id="@+id/g"
+                android:layout_below="@+id/f"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/h"
+                android:id="@+id/h"
+                android:layout_below="@+id/g"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/i"
+                android:id="@+id/i"
+                android:layout_below="@+id/h"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/j"
+                android:id="@+id/j"
+                android:layout_below="@+id/i"
+                android:padding="20dp"/>
+
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/k"
+                android:id="@+id/k"
+                android:layout_below="@+id/j"
+                android:padding="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

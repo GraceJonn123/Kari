@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".Main"></activity>
         <activity android:name=".About"></activity>
+        <activity android:name=".Gallery"></activity>
     </application>
 
 </manifest>
